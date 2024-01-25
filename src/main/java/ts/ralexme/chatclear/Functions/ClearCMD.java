@@ -3,9 +3,11 @@ package ts.ralexme.chatclear.Functions;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.ChatColor;
 import org.jetbrains.annotations.NotNull;
 
 public class ClearCMD implements CommandExecutor {
+
 
     @Override
     public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] strings) {
@@ -13,9 +15,8 @@ public class ClearCMD implements CommandExecutor {
             for (int a = 0; a < 100; a++) {
                 commandSender.sendMessage("              ");
             }
-            commandSender.sendMessage("[Kakoy-toWorld] ->" + " Чат успешнo очищен!");
+            commandSender.sendMessage(ChatColor.YELLOW + "[Kakoy-toWorld]" + ChatColor.GRAY +" ->" + ChatColor.GREEN + " Чат успешнo очищен!");
             return true;
         }
-        return false;
-    }
+        return false;    }
 }
