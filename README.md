@@ -1,4 +1,4 @@
-# ChatClear By RalexME 
+# ChatClear By RalexME 🔜
 
 Commands:  
    - /clear chat
