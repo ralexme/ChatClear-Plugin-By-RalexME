@@ -15,7 +15,7 @@ public class ClearCMD implements CommandExecutor {
             for (int a = 0; a < 100; a++) {
                 commandSender.sendMessage("              ");
             }
-            commandSender.sendMessage(ChatColor.YELLOW + "[Kakoy-toWorld]" + ChatColor.DARK_GREEN +" ->" + ChatColor.GREEN + " Чат успешнo очищен!");
+            commandSender.sendMessage(ChatColor.YELLOW + "[Kakoy-toWorld]" + ChatColor.DARK_GRAY +" ->" + ChatColor.GREEN + " Чат успешнo очищен!");
             return true;
         }
         return false;    }
