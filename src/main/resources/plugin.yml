@@ -1,0 +1,12 @@
+name: ChatClear
+version: '${project.version}'
+main: ts.ralexme.chatclear.ChatClear
+api-version: '1.16'
+description: ChatClear plugin - By RalexME! You need to clear chat? - clear it with command /clear chat
+commands:
+  clear:
+    description: Clear chat from server and enjoy your game!
+    aliases: cl
+    usage: /clear chat
+  clear chat:
+    usage: /clear chat
