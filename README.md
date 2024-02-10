@@ -1,9 +1,14 @@
-# ChatClear By RalexME 🔜
-
+# ChatClear By RalexME 🗯
 Commands:  
    - /clear chat
+      - Cleaning chat for the player.
 
-Description:
-   - The chat cleaning plugin for u'r server, believe you don't need it. 
+File Update/Design:
 
-All this about beautifully design everywhere but only not in the code 😂
+   - Updated some files, better expirience with comments!
+   - Updated folders, and source code design.
+
+In Development:
+   - nothing (Finished)
+
+Maded with love by RalexME ❤️
